@@ -10,7 +10,7 @@ function RootComponent() {
   return (
     <React.Fragment>
       <Navbar />
-      <hr className='border-gray-300' />
+      <hr className="border-gray-300" />
       <Outlet />
     </React.Fragment>
   )
