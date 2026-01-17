@@ -1,7 +1,7 @@
 import axios from "axios";
 import type { User } from "../context/AuthType";
 
-const API_URL = "http://localhost:5174/";
+const API_URL = "http://localhost:5174";
 
 export interface Product {
     id: string;
@@ -12,7 +12,7 @@ export interface Product {
 //login user
 export const login = async (username: string, password: string): Promise<User | null> => {
     try {
-        const response = await axios.get<User[]>(`${API_URL}/users`,{
+        const response = await axios.get<User[]>(`${API_URL}/users/`,{
             params: { username, password },
         });
         return response.data[0] || null; 
