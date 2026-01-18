@@ -14,8 +14,8 @@ export const PERMISSIONS = {
 
 export const ROLES_PERMISSIONS: Record<string, string[]> = {
     [ROLES.ADMIN]: [
-        PERMISSIONS.VIEW_DASHBOARD,
         PERMISSIONS.VIEW_PRODUCTS,
+        PERMISSIONS.VIEW_DASHBOARD,
         PERMISSIONS.EDIT_PRODUCT,
         PERMISSIONS.DELETE_PRODUCT
     ],
