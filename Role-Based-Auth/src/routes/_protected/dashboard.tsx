@@ -1,8 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useAuth } from "../../context/useAuth";
+import ProtectedRoutes from "../../components/ProtectedRoutes";
 
 export const Route = createFileRoute("/_protected/dashboard")({
-  component: RouteComponent,
+  component: () => (
+    <ProtectedRoutes allowGuest>
+      <RouteComponent />
+    </ProtectedRoutes>
+    )
 });
 
 function RouteComponent() {
