@@ -31,7 +31,6 @@ const ProtectedRoutes = ({
     //render the children if the user is authenticated and has permission
     return children;
     
-    return <div></div>;
 };
 
 export default ProtectedRoutes;
