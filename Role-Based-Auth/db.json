@@ -1,73 +1,68 @@
 {
-    "users": [
-        {
-            "id": "1",
-            "username": "admin",
-            "password": "admin123",
-            "role": "admin",
-            "permissions": [
-                "view_dashboard",
-                "view_products",
-                "edit_product",
-                "delete_product"
-            ]
-        },
-        {
-            "id": "2",
-            "username": "manager",
-            "password": "manager123",
-            "role": "manager",
-            "permission": [
-                "view_dashboard",
-                "view_products",
-                "edit_product"
-            ]
-        },
-        {
-            "id": "3",
-            "username": "user",
-            "password": "user123",
-            "role": "user",
-            "permission": [
-                "view_dashboard",
-                "view_products"
-            ]
-        },
-        {
-            "id": "4",
-            "username": "guest",
-            "password": "guest123",
-            "role": "guest",
-            "permission": [
-                "view_dashboard"
-            ]
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "name": "Iphone 13",
-            "price": 129.99
-        },
-        {
-            "id": 2,
-            "name": "Iphone 14",
-            "price": 229.99
-        },
-        {
-            "id": 3,
-            "name": "Iphone 15",
-            "price": 329.99
-        },
-        {
-            "id": 4,
-            "name": "Iphone 16",
-            "price": 329.99
-        },
-        {
-            "id": 5,
-            "name": "Iphone 17",
-            "price": 429.99
-        }
-    ]
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "permission": [
+        "view_dashboard",
+        "view_products",
+        "edit_product",
+        "delete_product"
+      ]
+    },
+    {
+      "id": "2",
+      "username": "manager",
+      "password": "manager123",
+      "role": "manager",
+      "permission": [
+        "view_dashboard",
+        "view_products",
+        "edit_product"
+      ]
+    },
+    {
+      "id": "3",
+      "username": "user",
+      "password": "user123",
+      "role": "user",
+      "permission": [
+        "view_dashboard",
+        "view_products"
+      ]
+    },
+    {
+      "id": "4",
+      "username": "guest",
+      "password": "guest123",
+      "role": "guest",
+      "permission": [
+        "view_dashboard"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "2",
+      "name": "Iphone 14",
+      "price": 229.99
+    },
+    {
+      "id": "3",
+      "name": "Iphone 15",
+      "price": 329.99
+    },
+    {
+      "id": "4",
+      "name": "Iphone 16",
+      "price": 329.99
+    },
+    {
+      "id": "5",
+      "name": "Iphone 17",
+      "price": 429.99
+    }
+  ]
 }
